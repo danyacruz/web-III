@@ -1,0 +1,35 @@
+h3 {
+	display: inline-block;
+	font: 55px Open_Sans, sans-serif;
+	text-align: center;
+	
+	&:hover{
+	transform:scale(1,2);
+	-ms-transform: scale(1,2);
+	-webkit-transform: scale(1,2);
+	}
+}
+
+th{
+	transform: translate(5px,15px);
+	-ms-transform: translate(5px,15px); 
+	-webkit-transform: translate(5px,15px); 
+	
+	&:hover {
+	background-color: $gray;	
+  }
+}
+
+td{
+	background: $gradient; 
+	background: -moz-linear-gradient(left, $gradient 0%, #ffffff 25%, #8f0222 57%, #ffffff 82%, #1700ad 100%); 
+	background: -webkit-linear-gradient(left, $gradient 0%,#ffffff 25%,#8f0222 57%,#ffffff 82%,#1700ad 100%); 
+	background: linear-gradient(to right, $gradient 0%,#ffffff 25%,#8f0222 57%,#ffffff 82%,#1700ad 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d04d3', endColorstr='#1700ad',GradientType=1 ); 
+    
+    &:hover{
+	transform:rotate(15deg);
+	-ms-transform: rotate(15deg); 
+	-webkit-transform: rotate(15deg);
+  }
+}

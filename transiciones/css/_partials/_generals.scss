@@ -1,0 +1,12 @@
+.cuadricula{
+	color:$gray;	
+	margin: 0 auto;
+	width: 1000px;	
+}
+
+tr,td{
+	background-color: $dark-blue;
+	box-sizing: border-box;	
+	height: 200px;
+	width: 200px;
+}
