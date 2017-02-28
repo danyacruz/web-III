@@ -1,0 +1,54 @@
+.cuadricula{
+	color:#b3b6b7;	
+	margin: 0 auto;
+	width: 1000px;	
+}
+
+tr,td{
+	background-color: #1a5276;
+	box-sizing: border-box;	
+	height: 200px;
+	width: 200px;
+}
+
+@font-face {
+	font-family: Open_Sans;
+	font-weight: ExtraBoldItalic;
+	src: url(../Open_Sans/OpenSans-Italic.ttf);
+}
+
+h3 {
+	display: inline-block;
+	font: 55px Open_Sans, sans-serif;
+	text-align: center;
+}
+
+h3:hover{
+	transform:scale(1,2);
+	-ms-transform: scale(1,2);
+	-webkit-transform: scale(1,2);
+}
+
+th{
+	transform: translate(5px,15px);
+	-ms-transform: translate(5px,15px); 
+	-webkit-transform: translate(5px,15px); 
+}
+
+th:hover {
+	background-color: #b3b6b7;	
+}
+
+td{
+	background: #2d04d3; 
+	background: -moz-linear-gradient(left, #2d04d3 0%, #ffffff 25%, #8f0222 57%, #ffffff 82%, #1700ad 100%); 
+	background: -webkit-linear-gradient(left, #2d04d3 0%,#ffffff 25%,#8f0222 57%,#ffffff 82%,#1700ad 100%); 
+	background: linear-gradient(to right, #2d04d3 0%,#ffffff 25%,#8f0222 57%,#ffffff 82%,#1700ad 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d04d3', endColorstr='#1700ad',GradientType=1 ); 
+}
+
+td:hover{
+	transform:rotate(15deg);
+	-ms-transform: rotate(15deg); 
+	-webkit-transform: rotate(15deg);
+}
