@@ -1,0 +1,93 @@
+.wrapper{
+	margin: 0 auto;
+	width: 1440px;
+}
+
+.menu-nav{
+	width: 1440px;
+	background-color: #010316;
+	height: 105px;
+}
+
+#logo{
+	margin: 25px 0 0 40px;
+	display: inline-block;
+}
+
+.bkground,.mid-photo{
+	width: 1440px;
+}
+
+.slogan {
+    color: #fff;
+    position: relative;
+    top: -460px;
+    right: -255px;
+    font-size: 98px;
+}
+
+ul{
+	display: inline-block;
+	text-decoration: none;
+	color:feffff;
+	float: right;
+
+}
+.nav-item{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 27px;
+	color:feffff;
+	float: right;
+}
+
+.table-container {
+    width: 1270px;
+    margin: 0 auto; 
+    padding: 150px 40px 85px;
+    /*border-collapse: separate;*/
+}
+
+.table-d, .table-d2 {
+	width: 400px;
+	height: 265px;
+	margin: 0 20px;
+}
+
+.table-d,
+.table-d:nth-child(even):hover,
+.table-d:hover:last-child
+{
+	background-image: url(../img/oceanBoat.jpg);
+}
+
+.table-d:hover{
+
+}
+
+.table-d:nth-child(even){
+	background-image: url(../img/sele.jpg);
+}
+
+.table-d:last-child{
+	background-image: url(../img/hotel.jpg);
+}
+
+#logo2 {
+    /* width: 425px; */
+    height: 120px;
+    position: relative;
+    top: -325px;
+    right: -220px;
+}
+
+.main-info {
+    width: 550px;
+    color: #fff;
+    position: relative;
+    top: -470px;
+    right: -775px;
+    font-size: 16px;
+}
+
+	
